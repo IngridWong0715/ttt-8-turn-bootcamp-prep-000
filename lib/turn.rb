@@ -29,7 +29,7 @@ def turn (board)
 
   if valid_move?
     move(board, index, mark)
-  else 
+  else
     turn(board)
-  end  
+  end
 end
